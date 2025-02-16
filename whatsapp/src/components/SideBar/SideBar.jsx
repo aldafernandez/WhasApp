@@ -1,14 +1,14 @@
 import './SideBar.css';
-import { MdOutlineMessage } from "react-icons/md";
+import { MdOutlineChat } from "react-icons/md";
 import { CgCircleci } from "react-icons/cg";
-import { RiChatVoiceFill } from "react-icons/ri";
+import { RiChatVoiceLine } from "react-icons/ri";
 
 export function SideBar() {
     return(
         <div className='sideBar'>
-            <MdOutlineMessage />
+            <MdOutlineChat />
             <CgCircleci />
-            <RiChatVoiceFill />
+            <RiChatVoiceLine />
         </div>
     )
 }
