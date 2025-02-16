@@ -1,15 +1,15 @@
 import './SideBar.css';
-import { MdOutlineChat } from "react-icons/md";
-import { LuCircleDotDashed } from "react-icons/lu";
-import { RiChatVoiceLine } from "react-icons/ri";
+import { FaRegCommentAlt } from "react-icons/fa";
+import { FaSpinner } from "react-icons/fa";
+import { FaRegCommentDots } from "react-icons/fa";
 import { FaUsers } from "react-icons/fa";
 
 export function SideBar() {
     return(
         <div className='sideBar'>
-            <MdOutlineChat />
-            <LuCircleDotDashed />
-            <RiChatVoiceLine />
+            <FaRegCommentAlt className='icon' />
+            <FaSpinner />
+            <FaRegCommentDots />
             <FaUsers />
         </div>
     )
