@@ -1,14 +1,16 @@
 import './SideBar.css';
 import { MdOutlineChat } from "react-icons/md";
-import { CgCircleci } from "react-icons/cg";
+import { LuCircleDotDashed } from "react-icons/lu";
 import { RiChatVoiceLine } from "react-icons/ri";
+import { FaUsers } from "react-icons/fa";
 
 export function SideBar() {
     return(
         <div className='sideBar'>
             <MdOutlineChat />
-            <CgCircleci />
+            <LuCircleDotDashed />
             <RiChatVoiceLine />
+            <FaUsers />
         </div>
     )
 }
