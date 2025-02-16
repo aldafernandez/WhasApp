@@ -7,10 +7,10 @@ import { FaUsers } from "react-icons/fa";
 export function SideBar() {
     return(
         <div className='sideBar'>
-            <FaRegCommentAlt className='icon' />
-            <FaSpinner />
-            <FaRegCommentDots />
-            <FaUsers />
+            <FaRegCommentAlt className='icon'/>
+            <FaSpinner className='icon'/>
+            <FaRegCommentDots className='icon'/>
+            <FaUsers className='icon'/>
         </div>
     )
 }
